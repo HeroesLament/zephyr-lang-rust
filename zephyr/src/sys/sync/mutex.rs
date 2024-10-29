@@ -9,6 +9,7 @@
 //! [`object`]: crate::object
 
 use core::fmt;
+#[allow(unused_imports)]
 use core::mem;
 use crate::{
     error::{Result, to_result_void},

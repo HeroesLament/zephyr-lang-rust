@@ -13,6 +13,7 @@
 
 use core::ffi::c_uint;
 use core::fmt;
+#[allow(unused_imports)]
 use core::mem;
 
 use crate::{

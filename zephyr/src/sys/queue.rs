@@ -6,6 +6,7 @@
 
 use core::ffi::c_void;
 use core::fmt;
+#[allow(unused_imports)]
 use core::mem;
 
 use zephyr_sys::{
@@ -15,6 +16,7 @@ use zephyr_sys::{
     k_queue_get,
 };
 
+#[allow(unused_imports)]
 use crate::error::Result;
 use crate::sys::K_FOREVER;
 use crate::object::{Fixed, StaticKernelObject, Wrapped};
